@@ -1,3 +1,125 @@
 * {
     font-family: "Raleway", sans-serif;
 }
+
+.inverted-rounded-corner {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background-color: #FFBF0F;
+    overflow: hidden;
+}
+
+.inverted-rounded-corner::before {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 50%;
+    bottom: -30px;
+    right: -30px;
+}
+
+.inverted-rounded-corner::after {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 50%;
+    top: -30px;
+    right: -30px;
+}
+
+/* 2nd copy */
+.inverted-rounded-corner2 {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background-color: #FFBF0F;
+    overflow: hidden;
+}
+
+.inverted-rounded-corner2::before {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 50%;
+    bottom: -30px;
+    left: -30px;
+}
+
+.inverted-rounded-corner2::after {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 50%;
+    top: -30px;
+    left: -30px;
+}
+
+/* 3rd copy */
+.inverted-rounded-corner3 {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background-color: #F78C9C;
+    overflow: hidden;
+}
+
+.inverted-rounded-corner3::before {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 50%;
+    top: -30px;
+    right: -30px;
+}
+
+.inverted-rounded-corner3::after {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 50%;
+    bottom: -30px;
+    right: -30px;
+}
+/* 4rd copy */
+.inverted-rounded-corner4 {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background-color: #F78C9C;
+    overflow: hidden;
+}
+
+.inverted-rounded-corner4::before {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 50%;
+    bottom: -30px;
+    left: -30px;
+}
+
+.inverted-rounded-corner4::after {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 50%;
+    top: -30px;
+    left: -30px;
+}

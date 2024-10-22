@@ -72,7 +72,7 @@
       <!-- Banner -->
       <section>
         <div
-          class="hero h-[80vh] rounded-3xl mt-6 relative"
+          class="hero h-[80vh] rounded-3xl mt-6 relative mb-40"
           style="background-image: url(./images/banner.png)"
         >
           <div class="hero-overlay bg-opacity-60 rounded-3xl"></div>
@@ -95,7 +95,9 @@
             </div>
           </div>
           <!-- Cards for absolute position -->
-          <div class="absolute flex gap-6  border-red-300">
+          <div
+            class="w-full absolute flex justify-around border-red-300 -bottom-16"
+          >
             <!-- card 1 -->
             <div
               class="card card-side bg-base-100 shadow-xl rounded-3xl border-b-4 border-b-[#1DD100] flex items-center text-center py-1 px-8"
@@ -130,7 +132,49 @@
         </div>
       </section>
     </header>
-    <main></main>
+    <main>
+      <!-- Best-Offer Section -->
+      <section class="flex justify-between ">
+        <div class="flex">
+          <div
+            class="inverted-rounded-corner flex flex-col justify-center items-center rounded-l-2xl"
+          >
+            <span class="font-extrabold text-4xl">15% OFF</span> <br />
+            <span class="font-bold text-2xl">on your next purchase</span> <br />
+            use by January 2024
+            <div
+              class="w-[1px] h-full border-dashed border-2 border-white absolute right-[-2px]"
+            ></div>
+          </div>
+
+          <div
+            class="inverted-rounded-corner2 flex flex-col justify-center items-center rounded-r-2xl"
+          >
+            <span class="font-extrabold text-4xl">NEW15</span> <br />
+            Coupon Code
+          </div>
+        </div>
+        <div class="flex">
+          <div
+            class="inverted-rounded-corner3 flex flex-col justify-center items-center rounded-l-2xl"
+          >
+            <span class="font-extrabold text-4xl">15% OFF</span> <br />
+            <span class="font-bold text-2xl">on your next purchase</span> <br />
+            use by January 2024
+            <div
+              class="w-[1px] h-full border-dashed border-2 border-white absolute right-[-2px]"
+            ></div>
+          </div>
+
+          <div
+            class="inverted-rounded-corner4 flex flex-col justify-center items-center rounded-r-2xl"
+          >
+            <span class="font-extrabold text-4xl">NEW15</span> <br />
+            Coupon Code
+          </div>
+        </div>
+      </section>
+    </main>
     <footer></footer>
   </body>
 </html>
