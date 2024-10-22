@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment Five</title>
+    <!-- Tailwind and DaisyUi -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.13/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="styles/styles.css" />
+    <!-- Google Font -->
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+    </style>
+  </head>
+  <body class="w-10/12 mx-auto">
+    <header>
+      <!-- Navbar -->
+      <nav>
+        <div class="navbar bg-base-100">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+              >
+                <li><a>Home</a></li>
+                <li><a>About</a></li>
+                <li><a>Destination</a></li>
+                <li><a>Search</a></li>
+              </ul>
+            </div>
+            <a class="btn btn-ghost text-4xl font-extrabold">P-Ticket</a>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+              <li><a>Home</a></li>
+              <li><a>About</a></li>
+              <li><a>Destination</a></li>
+              <li><a>Search</a></li>
+            </ul>
+          </div>
+          <div class="navbar-end">
+            <a class="btn bg-[#e8ffe3] border-[#1DD100]">
+              <span class="text-[#1DD100]">Bus</span>
+              <img src="images/bus-icon.png" alt=""
+            /></a>
+          </div>
+        </div>
+      </nav>
+      <!-- Banner -->
+      <section>
+        <div
+          class="hero h-[80vh] rounded-3xl mt-6 relative"
+          style="background-image: url(./images/banner.png)"
+        >
+          <div class="hero-overlay bg-opacity-60 rounded-3xl"></div>
+          <div class="hero-content text-neutral-content text-center">
+            <div class="">
+              <h1 class="mb-5 text-7xl font-extrabold">
+                End-to-End Travel with <br />
+                <span class="text-[#1DD100]">P Paribahan</span>
+              </h1>
+              <p class="my-10">
+                Yes, you can run unit tests and view the results directly within
+                the app. The <br />
+                integrated testing features allow for a streamlined .
+              </p>
+              <button
+                class="btn btn-primary bg-[#1DD100] border-none text-black font-bold text-xl text-center"
+              >
+                Buy Tickets
+              </button>
+            </div>
+          </div>
+          <!-- Cards for absolute position -->
+          <div class="absolute flex gap-6  border-red-300">
+            <!-- card 1 -->
+            <div
+              class="card card-side bg-base-100 shadow-xl rounded-3xl border-b-4 border-b-[#1DD100] flex items-center text-center py-1 px-8"
+            >
+              <img src="./images/people.png" alt="Movie" />
+              <div class="card-body">
+                <h2 class="card-title font-bold text-4xl">500K+</h2>
+                <p>Registered users</p>
+              </div>
+            </div>
+            <!-- card 1 -->
+            <div
+              class="card card-side bg-base-100 shadow-xl rounded-3xl border-b-4 border-b-[#1DD100] flex items-center text-center py-1 px-8"
+            >
+              <img src="./images/people.png" alt="Movie" />
+              <div class="card-body">
+                <h2 class="card-title font-bold text-4xl">500K+</h2>
+                <p>Registered users</p>
+              </div>
+            </div>
+            <!-- card 1 -->
+            <div
+              class="card card-side bg-base-100 shadow-xl rounded-3xl border-b-4 border-b-[#1DD100] flex items-center text-center py-1 px-8"
+            >
+              <img src="./images/people.png" alt="Movie" />
+              <div class="card-body">
+                <h2 class="card-title font-bold text-4xl">500K+</h2>
+                <p>Registered users</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+    <main></main>
+    <footer></footer>
+  </body>
+</html>
